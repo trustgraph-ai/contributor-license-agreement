@@ -60,16 +60,25 @@ async function getPRAuthors(octokit, owner, repo, prNumber) {
     owner, repo, pull_number: prNumber, per_page: 100,
   });
   const authors = new Set();
+  let hasUnknownAuthors = false;
   for (const commit of commits) {
-    if (commit.author && commit.author.login) {
+    const hasAuthor = commit.author && commit.author.login;
+    const hasCommitter = commit.committer && commit.committer.login && commit.committer.login !== 'web-flow';
+    if (hasAuthor) {
       authors.add(commit.author.login);
     }
-    // Also check committer in case author isn't set
-    if (commit.committer && commit.committer.login && commit.committer.login !== 'web-flow') {
+    if (hasCommitter) {
       authors.add(commit.committer.login);
     }
+    if (!hasAuthor && !hasCommitter) {
+      const gitAuthor = commit.commit && commit.commit.author
+        ? `${commit.commit.author.name} <${commit.commit.author.email}>`
+        : 'unknown';
+      core.warning(`Commit ${commit.sha.substring(0, 7)} has no linked GitHub account (git author: ${gitAuthor})`);
+      hasUnknownAuthors = true;
+    }
   }
-  return [...authors];
+  return { authors: [...authors], hasUnknownAuthors };
 }
 
 async function setCommitStatus(octokit, owner, repo, sha, state, description) {
@@ -136,8 +145,19 @@ async function checkAndUpdateCLA(octokit, patOctokit, owner, repo, prNumber, hea
   core.info(`Checking CLA for PR #${prNumber} in ${owner}/${repo}`);
 
   // Get all PR authors
-  const authors = await getPRAuthors(octokit, owner, repo, prNumber);
+  const { authors, hasUnknownAuthors } = await getPRAuthors(octokit, owner, repo, prNumber);
   core.info(`PR authors: ${authors.join(', ')}`);
+
+  if (hasUnknownAuthors) {
+    core.info('PR contains commits from unknown (non-GitHub-linked) authors');
+    await setCommitStatus(octokit, owner, repo, headSha, 'failure',
+      'PR contains commits from authors with no linked GitHub account');
+    await postOrUpdateComment(octokit, owner, repo, prNumber,
+      `## Contributor License Agreement ❌\n\nThis PR contains commits from author(s) with no linked GitHub account. ` +
+      `All commits must be authored by a GitHub user so the CLA can be verified.\n\n` +
+      `Please ensure the git author email is associated with a GitHub account, or rewrite the commits with a linked identity.`);
+    return;
+  }
 
   // Filter out allowlisted users
   const relevant = authors.filter(a => !isAllowlisted(a, allowlist));

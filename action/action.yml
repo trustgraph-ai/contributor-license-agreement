@@ -1,0 +1,10 @@
+name: 'TrustGraph CLA Assistant'
+description: 'Checks that all PR contributors have signed the TrustGraph CLA'
+inputs:
+  allowlist:
+    description: 'Comma-separated list of usernames or patterns (e.g. bot*) to exempt from CLA checks'
+    required: false
+    default: ''
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

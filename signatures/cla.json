@@ -5,6 +5,12 @@
       "signed_at": "2026-03-26T14:15:29.612Z",
       "pr_number": 722,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "JackColquitt",
+      "signed_at": "2026-03-27T18:28:05.828Z",
+      "pr_number": 725,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

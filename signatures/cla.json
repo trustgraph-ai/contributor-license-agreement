@@ -29,6 +29,12 @@
       "signed_at": "2026-04-02T12:40:34.657Z",
       "pr_number": 715,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "zeel2104",
+      "signed_at": "2026-04-13T19:38:21.001Z",
+      "pr_number": 797,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

@@ -41,6 +41,12 @@
       "signed_at": "2026-04-13T21:27:30.267Z",
       "pr_number": 803,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "tmchow",
+      "signed_at": "2026-04-16T09:02:05.116Z",
+      "pr_number": 816,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

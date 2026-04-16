@@ -53,6 +53,12 @@
       "signed_at": "2026-04-16T09:49:25.978Z",
       "pr_number": 819,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "Deadpool2000",
+      "signed_at": "2026-04-16T17:30:05.701Z",
+      "pr_number": 823,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

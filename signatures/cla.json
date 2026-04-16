@@ -47,6 +47,12 @@
       "signed_at": "2026-04-16T09:02:05.116Z",
       "pr_number": 816,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "LennardGeissler",
+      "signed_at": "2026-04-16T09:49:25.978Z",
+      "pr_number": 819,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

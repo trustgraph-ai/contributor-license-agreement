@@ -59,6 +59,12 @@
       "signed_at": "2026-04-16T17:30:05.701Z",
       "pr_number": 823,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "CuriousHet",
+      "signed_at": "2026-04-17T10:04:31.734Z",
+      "pr_number": 825,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

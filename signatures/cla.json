@@ -71,6 +71,12 @@
       "signed_at": "2026-04-17T17:18:51.669Z",
       "pr_number": 828,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "gittihub-jpg",
+      "signed_at": "2026-05-07T14:10:51.662Z",
+      "pr_number": 883,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

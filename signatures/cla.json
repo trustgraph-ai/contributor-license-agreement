@@ -77,6 +77,12 @@
       "signed_at": "2026-05-07T14:10:51.662Z",
       "pr_number": 883,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "SahilYadav-op",
+      "signed_at": "2026-05-09T11:55:12.876Z",
+      "pr_number": 886,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

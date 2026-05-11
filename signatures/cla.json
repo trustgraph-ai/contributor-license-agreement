@@ -83,6 +83,12 @@
       "signed_at": "2026-05-09T11:55:12.876Z",
       "pr_number": 886,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "KOTHA-SRIVIBHU",
+      "signed_at": "2026-05-11T10:19:07.279Z",
+      "pr_number": 896,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

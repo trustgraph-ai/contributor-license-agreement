@@ -89,6 +89,12 @@
       "signed_at": "2026-05-11T10:19:07.279Z",
       "pr_number": 896,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "jlaportebot",
+      "signed_at": "2026-05-17T19:01:38.538Z",
+      "pr_number": 931,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

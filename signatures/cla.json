@@ -107,6 +107,12 @@
       "signed_at": "2026-06-25T02:52:36.614Z",
       "pr_number": 999,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "sunnyadn",
+      "signed_at": "2026-07-01T18:10:02.541Z",
+      "pr_number": 1011,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

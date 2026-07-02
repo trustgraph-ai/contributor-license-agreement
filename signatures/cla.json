@@ -113,6 +113,12 @@
       "signed_at": "2026-07-01T18:10:02.541Z",
       "pr_number": 1011,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "YingzuoLiu",
+      "signed_at": "2026-07-02T12:45:56.492Z",
+      "pr_number": 1014,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

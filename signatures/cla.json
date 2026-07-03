@@ -119,6 +119,12 @@
       "signed_at": "2026-07-02T12:45:56.492Z",
       "pr_number": 1014,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "jquave",
+      "signed_at": "2026-07-03T22:36:11.027Z",
+      "pr_number": 22,
+      "repo": "trustgraph-ai/trustgraph-ui"
     }
   ]
 }

@@ -125,6 +125,12 @@
       "signed_at": "2026-07-03T22:36:11.027Z",
       "pr_number": 22,
       "repo": "trustgraph-ai/trustgraph-ui"
+    },
+    {
+      "login": "kworathur",
+      "signed_at": "2026-07-07T02:21:02.116Z",
+      "pr_number": 1031,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

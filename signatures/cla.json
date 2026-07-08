@@ -131,6 +131,12 @@
       "signed_at": "2026-07-07T02:21:02.116Z",
       "pr_number": 1031,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "arthurxuwei",
+      "signed_at": "2026-07-08T15:08:15.772Z",
+      "pr_number": 1036,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

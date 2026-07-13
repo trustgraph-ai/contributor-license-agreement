@@ -137,6 +137,12 @@
       "signed_at": "2026-07-08T15:08:15.772Z",
       "pr_number": 1036,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "01AtharvR",
+      "signed_at": "2026-07-13T01:12:13.655Z",
+      "pr_number": 1039,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

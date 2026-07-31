@@ -143,6 +143,12 @@
       "signed_at": "2026-07-13T01:12:13.655Z",
       "pr_number": 1039,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "Souptik96",
+      "signed_at": "2026-07-31T10:23:57.915Z",
+      "pr_number": 1077,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

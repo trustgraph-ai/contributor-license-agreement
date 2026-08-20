@@ -149,6 +149,12 @@
       "signed_at": "2026-07-31T10:23:57.915Z",
       "pr_number": 1077,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "Aphroq",
+      "signed_at": "2026-08-20T22:54:08.963Z",
+      "pr_number": 1096,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

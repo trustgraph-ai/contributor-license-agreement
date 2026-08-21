@@ -155,6 +155,12 @@
       "signed_at": "2026-08-20T22:54:08.963Z",
       "pr_number": 1096,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "PaulYang2005",
+      "signed_at": "2026-08-21T15:26:18.196Z",
+      "pr_number": 1097,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

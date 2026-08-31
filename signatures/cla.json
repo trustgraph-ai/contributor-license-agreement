@@ -161,6 +161,12 @@
       "signed_at": "2026-08-21T15:26:18.196Z",
       "pr_number": 1097,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "emecii",
+      "signed_at": "2026-08-31T03:39:22.550Z",
+      "pr_number": 1107,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

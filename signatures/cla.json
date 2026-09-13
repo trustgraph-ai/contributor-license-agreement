@@ -167,6 +167,12 @@
       "signed_at": "2026-08-31T03:39:22.550Z",
       "pr_number": 1107,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "chiruu12",
+      "signed_at": "2026-09-13T22:08:50.162Z",
+      "pr_number": 1115,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

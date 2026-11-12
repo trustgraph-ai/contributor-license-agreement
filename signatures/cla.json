@@ -173,6 +173,12 @@
       "signed_at": "2026-09-13T22:08:50.162Z",
       "pr_number": 1115,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "SalyyS1",
+      "signed_at": "2026-11-12T05:46:21.059Z",
+      "pr_number": 1198,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

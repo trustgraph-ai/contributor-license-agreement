@@ -179,6 +179,12 @@
       "signed_at": "2026-11-12T05:46:21.059Z",
       "pr_number": 1198,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "goranai",
+      "signed_at": "2026-11-12T13:57:29.696Z",
+      "pr_number": 1203,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

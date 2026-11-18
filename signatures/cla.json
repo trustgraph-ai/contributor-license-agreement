@@ -185,6 +185,12 @@
       "signed_at": "2026-11-12T13:57:29.696Z",
       "pr_number": 1203,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "MunibUrRehmanMemon",
+      "signed_at": "2026-11-18T22:06:04.914Z",
+      "pr_number": 1213,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

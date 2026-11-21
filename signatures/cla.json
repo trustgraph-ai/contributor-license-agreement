@@ -191,6 +191,12 @@
       "signed_at": "2026-11-18T22:06:04.914Z",
       "pr_number": 1213,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "GermanGerken",
+      "signed_at": "2026-11-21T15:55:11.069Z",
+      "pr_number": 1219,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

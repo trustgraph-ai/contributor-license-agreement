@@ -197,6 +197,12 @@
       "signed_at": "2026-11-21T15:55:11.069Z",
       "pr_number": 1219,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "Ostrzyciel",
+      "signed_at": "2026-11-24T09:08:51.642Z",
+      "pr_number": 1230,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }

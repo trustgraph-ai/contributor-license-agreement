@@ -203,6 +203,12 @@
       "signed_at": "2026-11-24T09:08:51.642Z",
       "pr_number": 1230,
       "repo": "trustgraph-ai/trustgraph"
+    },
+    {
+      "login": "shlokbam",
+      "signed_at": "2026-11-28T11:03:45.134Z",
+      "pr_number": 1254,
+      "repo": "trustgraph-ai/trustgraph"
     }
   ]
 }
